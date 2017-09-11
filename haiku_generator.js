@@ -26,7 +26,7 @@ function formatData(data){
 
 const sylls = formatData(cmuDict);
 
-console.log(haiku.createHaiku([[5], [7], [1, 2, 2]], sylls));
+console.log(haiku.createHaiku([[5], [7], [5]], sylls));
 
 //First poem generated...
 // MILITARISTIC
